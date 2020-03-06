@@ -8,10 +8,6 @@ blal::~blal()
 {
 }
 
-void blal::handleInput(float dt)
-{
-}
-
 void blal::update(float dt)
 {
 	move(velocity * dt);

@@ -1,17 +1,16 @@
 #pragma once
 #include "Framework/GameObject.h"
-class blal :
+class Player1 :
 	public GameObject
 {
 public:
-	blal();
-	~blal();
+	Player1();
+	~Player1();
 
+	void handleInput(float dt) override;
 	void update(float dt) override;
-	void collisionResponse(GameObject* collider) override;
 
 	sf::RenderWindow* window;
 
 	void setWindow(sf::RenderWindow* hwnd) { window = hwnd; }
 };
-

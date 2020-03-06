@@ -6,6 +6,8 @@
 #include <iostream>
 #include "Framework/Collision.h"
 #include "blal.h"
+#include "Player1.h"
+#include "Square.h"
 
 
 class Level{
@@ -30,4 +32,7 @@ private:
 	sf::Texture ballTexture;
 	blal circle;
 	sf::Texture circleTexture;
+	Player1 player1;
+	Player1 player2;
+	Square square;
 };

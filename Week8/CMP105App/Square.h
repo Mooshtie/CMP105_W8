@@ -1,11 +1,11 @@
 #pragma once
 #include "Framework/GameObject.h"
-class blal :
+class Square :
 	public GameObject
 {
 public:
-	blal();
-	~blal();
+	Square();
+	~Square();
 
 	void update(float dt) override;
 	void collisionResponse(GameObject* collider) override;
